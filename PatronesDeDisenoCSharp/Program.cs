@@ -6,7 +6,8 @@ namespace PatronesDeDisenoCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ITest vObjTest = TestFactory.ObtenerTest(TestFactory.TiposDeTest.PatronObservador);
+            vObjTest.EjecutarTest();
         }
     }
 }
