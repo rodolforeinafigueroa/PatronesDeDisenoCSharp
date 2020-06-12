@@ -6,7 +6,7 @@ namespace PatronesDeDisenoCSharp
     {
         static void Main(string[] args)
         {
-            ITest vObjTest = TestFactory.ObtenerTest(TestFactory.TiposDeTest.PatronObservador);
+            ITest vObjTest = TestFactory.ObtenerTest(TestFactory.TiposDeTest.PatronFabricaAbstracta);
             vObjTest.EjecutarTest();
         }
     }
